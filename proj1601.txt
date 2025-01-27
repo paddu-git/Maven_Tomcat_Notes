@@ -1,0 +1,60 @@
+Agenda
+	Devops
+		E2E automation to improve the process of delivery of an application to production
+		
+		dev -> git/github, 
+		
+		operation-> sh
+		
+		devops-> 
+		
+		roles and responsibalities 
+			automation
+			monitoring
+			release management
+			cost management
+			trouble shooting
+			security management
+			infrastructure management
+			configuration management
+			documentation
+			
+		benifits
+			reduced time
+			quality
+			efficiency
+			productivity
+			easy collaboration
+			cost efficiency
+			risk control
+			disaster recovery
+			
+CICD -> continious integration and continious deployment
+	
+	DEV - l1 tools
+	plan -> jira, slack, teams, octane, az boards, billboards, bug zilla, confluence -> jira, az boards and confluence
+	code -> 
+		programming language -> java, c, c++, c#, .net, python, react, angular  
+		version control system -> git, svn, mercury, bitbucket, github, cleacase, az repos -> git, github, az repos
+	build -> maven, gradle, ant,npm, msbuild, docker, crio, containerd -> maven and docker
+	test -> test -> junit, selenium, testng, cucmber,jmeter, pytest, postman
+			analysis -> static code analysis -> pylint, sonar -> sonar
+	
+	operation -> L3 tools
+	release -> artificat -> jfrog, nexus, az artifacts -> jfrog and az artifacts
+				image -> docker hub, acr 	
+	deploy -> webserver -> tomcat, httpd, goldfish -> tomcat, httpd
+				app servers -> jboss, weblogic, websphere, wild fly
+	operate -> 
+			config management -> chef, puppet, ansible ->| ansible
+			infra management -> cloud formation, terraform -> terraform
+			orchestration -> swarm, kubernetes -> kubernetes
+	
+	monitor -> prometheous, graphana, ELK, nagios, splunk -> prometheous and graphana
+	
+	devops -> L2 tools
+		cloud -> azure, aws, gcp -> azure
+		
+		integration tools -> jenkins, gitlab, pipelines, github actions -> pipelines and jenkins
+		
+task: periodic table of devops

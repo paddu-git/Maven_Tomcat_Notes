@@ -1,0 +1,77 @@
+Agenda
+	building an application
+		packaging multiplw source files into one executable file
+	build tools
+		java
+			ant, maven, gradle
+		react -> npm
+		.net -> msbuild
+		pyton-> nuget
+		pytonn, react, angular,c,c#,c++, html, css -> maven and gradle
+		
+	maven
+		opensource -> free, sourcecode is available to public and is customizable
+		dependancy management
+		plugin support
+		versioning
+		project object model(pom) -> single file configuration
+
+	installation
+		sudo apt-get install maven
+			mvn -version
+		win 
+			https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.zip
+	architecture
+		working directory
+			create a pom.xml
+		local repository
+			~/.m2/repository/
+		remote repository
+			proxy repository
+				private repository to store the artifact
+				jfrog
+			central repository
+				mavens owned repository, 
+					https://mvnrepository.com
+	lifecycle
+		validate
+		compile
+		test
+		package
+		verify
+		install
+		deploy
+		
+		clean 
+		site
+	
+	
+installation
+Life cycle
+architecture
+archetypes
+structure and components of pom
+dependancy and plugin management in maven
+modular maven project
+
+task: 1. install maven in windows
+	  2. man mvn 
+
+------------------
+repository
+https://github.com/adikarthik/b7-java
+ 
+https://github.com/adikarthik/demo1
+ 
+
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mycompany.app</groupId>
+
+  <artifactId>my-app</artifactId>
+  <packaging>jar</packaging>
+  <version>2.0-SNAPSHOT</version>
+  <name>my-app</name>
+  </project>
